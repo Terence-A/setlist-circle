@@ -26,7 +26,7 @@ const Header = () => {
             <Link href="/circle">Your Circle</Link>
           </li>
           <li className="duration-150 hover:text-stone-50">
-            <Link href="/tools">Tools</Link>
+            <Link href="/userTools">Tools</Link>
           </li>
         </ul>
       </nav>
