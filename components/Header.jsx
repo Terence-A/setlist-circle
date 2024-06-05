@@ -1,6 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const active = "border-b-4 border-b-amber-400 ";
 
 const Header = () => {
+  const pathname = usePathname();
   return (
     <header className="flex justify-between bg-stone-800 text-stone-400 px-12 py-4 items-center shadow-md shadow-stone-700">
       <button>
@@ -12,20 +18,41 @@ const Header = () => {
       </button>
 
       <nav>
-        <ul className="flex gap-20">
-          <li className="duration-150 hover:text-stone-50">
+        <ul className="flex gap-20 items-center">
+          <li
+            className={`duration-150 hover:text-stone-50 ${
+              pathname === "/" ? active : ""
+            }`}
+          >
             <Link href="/">Home</Link>
           </li>
-          <li className="duration-150 hover:text-stone-50">
+          <li
+            className={`duration-150 hover:text-stone-50 ${
+              pathname === "/setlists" ? active : ""
+            }`}
+          >
             <Link href="/setlists">Setlists</Link>
           </li>
-          <li className="duration-150 hover:text-stone-50">
+          <li
+            className={`duration-150 hover:text-stone-50 ${
+              pathname === "/songs" ? active : ""
+            }`}
+          >
             <Link href="/songs">Songs</Link>
           </li>
-          <li className="duration-150 hover:text-stone-50">
+          <li
+            className={`duration-150 hover:text-stone-50 ${
+              pathname === "/circle" ? active : ""
+            }`}
+          >
             <Link href="/circle">Your Circle</Link>
           </li>
-          <li className="duration-150 hover:text-stone-50">
+
+          <li
+            className={`duration-150 hover:text-stone-50 ${
+              pathname === "/userTools" ? active : ""
+            }`}
+          >
             <Link href="/userTools">Tools</Link>
           </li>
         </ul>
