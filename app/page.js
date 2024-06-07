@@ -16,10 +16,31 @@ export default function Home() {
           </button>
         </div>
       </section>
-      <section className="bg-violet-950/50">
-        <h1 className="text-stone-50 text-center text-2xl h-96">
+      <section className="bg-violet-950/50 h-96">
+        <h1 className="text-stone-50 text-center text-2xl ">
           Features / Overview
         </h1>
+      </section>
+      <section className="h-96">
+        <h1 className="text-stone-50 text-2xl text-center">How it works</h1>
+      </section>
+      <section className="h-96">
+        <h1 className="text-stone-50 text-2xl text-center">
+          User Testimonials
+        </h1>
+      </section>
+      <section className="h-96">
+        <h1 className="text-stone-50 text-2xl text-center">
+          Community and Social Proof
+        </h1>
+      </section>
+      <section className="h-96">
+        <h1 className="text-stone-50 text-2xl text-center">
+          Call to action section
+        </h1>
+      </section>
+      <section className="h-96">
+        <h1 className="text-stone-50 text-2xl text-center">Footer</h1>
       </section>
     </main>
   );
