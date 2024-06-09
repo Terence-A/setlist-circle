@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="flex justify-center gap-12 mt-12">
+    <section className="flex justify-center gap-12 mt-36">
       <div className="text-stone-50 w-64 h-44 flex flex-col items-center justify-between ">
         <div>
           <h2 className="font-bold text-center pb-2 text-xl">
