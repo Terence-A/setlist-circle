@@ -1,34 +1,48 @@
 import Features from "@/components/homePage/Features";
-import Image from "next/image";
+import HowItWorks from "@/components/homePage/HowItWorks";
+import Testimonials from "@/components/homePage/Testimonials";
 
 export default function Home() {
   return (
     <main>
       <section className="h-[700px] mt-36  ">
-        <div className="flex flex-col justify-between  items-center h-80">
-          <h1 className="text-amber-200 text-6xl w-1/2 flex-wrap text-center">
-            Be fully prepared for both planned or spontaneous Jams
-          </h1>
-          <p className="text-stone-50 text-xl">
-            Learn full songs! not just the riffs.
-          </p>
-          <button className="bg-amber-400 text-xl text-stone-950 px-6 py-2 font-bold rounded-full">
-            Join For Free
-          </button>
+        <div className="flex flex-col h-full pb-20 justify-between  items-center">
+          <div className="flex flex-col items-center justify-between h-80 ">
+            <h1 className="text-amber-200 text-6xl w-1/2 flex-wrap text-center">
+              Be fully prepared for both planned or spontaneous Jams
+            </h1>
+            <p className="text-stone-50 text-xl">
+              Learn full songs! not just the riffs.
+            </p>
+            <button className="bg-amber-400 text-xl text-stone-950 px-6 py-2 font-bold rounded-full">
+              Join For Free
+            </button>
+          </div>
+
+          <ul className="flex gap-20 text-3xl">
+            <li className="text-stone-50">Sponsor</li>
+            <li className="text-stone-50">Sponsor</li>
+            <li className="text-stone-50">Sponsor</li>
+            <li className="text-stone-50">Sponsor</li>
+            <li className="text-stone-50">Sponsor</li>
+          </ul>
         </div>
       </section>
-      <section className="bg-violet-950/50 h-96">
+      <section className="bg-violet-950/50 h-[500px]">
         <h1 className="text-stone-50 text-center text-2xl pt-12 ">
           Features / Overview
         </h1>
         <Features />
       </section>
       <section className="h-96">
-        <h1 className="text-stone-50 text-2xl text-center">How it works</h1>
+        <HowItWorks />
       </section>
-      <section className="h-96">
+      <section className="h-[600px]">
         <h1 className="text-stone-50 text-2xl text-center">
-          User Testimonials
+          <h1 className="text-violet-50 text-5xl mt-36 ">
+            - What our Friends are saying -
+          </h1>
+          <Testimonials />
         </h1>
       </section>
       <section className="h-96">
