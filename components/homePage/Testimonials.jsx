@@ -4,7 +4,7 @@ import userImg from "../../public/TerenceArseneault.jpg";
 
 const Testimonials = () => {
   return (
-    <section className="flex justify-center gap-48 mt-20 ">
+    <section className="flex justify-center gap-48">
       <div className="flex flex-col items-start gap-6 w-72">
         <Image
           src={userImg}
