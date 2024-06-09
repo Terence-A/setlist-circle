@@ -34,14 +34,11 @@ export default function Home() {
         </h1>
         <Features />
       </section>
-      <section className="h-96">
+      <section className="h-96 mb-36">
         <HowItWorks />
       </section>
-      <section className="h-[600px]">
-        <h1 className="text-stone-50 text-2xl text-center">
-          <h1 className="text-violet-50 text-5xl mt-36 ">
-            - What our Friends are saying -
-          </h1>
+      <section className="h-[500px] bg-amber-400/5 ">
+        <h1 className="text-stone-50 text-2xl text-center h-full flex items-center justify-center">
           <Testimonials />
         </h1>
       </section>

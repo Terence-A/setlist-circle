@@ -5,7 +5,7 @@ import heroImg from "../../public/band.png";
 const HowItWorks = () => {
   return (
     <section>
-      <div className="flex  justify-center items-center gap-36  mt-20">
+      <div className="flex  justify-center items-center gap-36  mt-12">
         <Image src={heroImg} alt="hero Image" width={500} />
         <div>
           <ul className="flex flex-col gap-4 ">
@@ -22,7 +22,7 @@ const HowItWorks = () => {
           </ul>
         </div>
       </div>
-      <ul className="flex justify-center gap-20 mt-8 ">
+      <ul className="flex justify-center gap-20 mt-20 ">
         <li className="text-stone-50 text-2xl">
           <span className="text-amber-500"> &#10004; </span> Always Free
         </li>
