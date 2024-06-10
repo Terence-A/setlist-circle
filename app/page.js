@@ -37,7 +37,7 @@ export default function Home() {
       <section className="h-96 mb-36">
         <HowItWorks />
       </section>
-      <section className="h-[500px] bg-amber-400/5 ">
+      <section className="h-[500px] bg-gradient-to-r from-amber-400/5 to-amber-700/15 ">
         <h1 className="text-stone-50 text-2xl text-center h-full flex items-center justify-center">
           <Testimonials />
         </h1>
