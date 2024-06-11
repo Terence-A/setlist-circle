@@ -27,16 +27,16 @@ const HowItWorks = () => {
           <span className="text-amber-500"> &#10004; </span> Always Free
         </li>
         <li className="text-stone-50 text-2xl">
-          <span className="text-amber-500"> &#10004; </span> Always Free
+          <span className="text-amber-500"> &#10004; </span> Be Prepared
         </li>
         <li className="text-stone-50 text-2xl">
-          <span className="text-amber-500"> &#10004; </span> Always Free
+          <span className="text-amber-500"> &#10004; </span> Stay on Track
         </li>
         <li className="text-stone-50 text-2xl">
-          <span className="text-amber-500"> &#10004; </span> Always Free
+          <span className="text-amber-500"> &#10004; </span> Keep Motivated
         </li>
         <li className="text-stone-50 text-2xl">
-          <span className="text-amber-500"> &#10004; </span> Always Free
+          <span className="text-amber-500"> &#10004; </span> Have Fun
         </li>
       </ul>
     </section>

@@ -9,7 +9,7 @@ const Testimonials = () => {
         <Image
           src={userImg}
           alt="user Image"
-          width={200}
+          width={150}
           className="rounded-full"
         />
         <p className="text-sm  text-start italic">
@@ -25,7 +25,7 @@ const Testimonials = () => {
         <Image
           src={userImg}
           alt="user Image"
-          width={200}
+          width={150}
           className="rounded-full"
         />
         <p className="text-sm  text-start italic">
@@ -41,7 +41,7 @@ const Testimonials = () => {
         <Image
           src={userImg}
           alt="user Image"
-          width={200}
+          width={150}
           className="rounded-full"
         />
         <p className="text-sm  text-start italic">
