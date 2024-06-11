@@ -7,7 +7,7 @@ import Image from "next/image";
 import facebookImg from "../public/facebook.png";
 import snapchatImg from "../public/snapchat.png";
 import githubImg from "../public/github.png";
-import linkedInImg from "../public/linkedIn.png";
+import linkedInImg from "../public/linkedin.png";
 
 export default function Home() {
   return (
